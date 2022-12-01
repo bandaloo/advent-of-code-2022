@@ -1,0 +1,18 @@
+{
+  "name": "aoc2022",
+  "version": "1.0.0",
+  "description": "Advent of Code 2022 in TypeScript",
+  "main": "main.ts",
+  "scripts": {
+    "day": "ts-node --transpileOnly src/main.ts"
+  },
+  "private": true,
+  "author": "Cole Granof",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "ts-node": {
+    "experimentalSpecifierResolution": "node"
+  }
+}
